@@ -1,0 +1,46 @@
+.fourthsection {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 220px;
+    // gap: 20px;
+}
+
+.fourthsection h2 {
+    font-size: 30px;
+    line-height: 50px;
+
+    text-align: center;
+
+    color: #0B132A;
+}
+.fourthsection p {
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #4F5665;
+    margin-top: 15px;
+}
+.fourthsection > img {
+    margin-top: 50px;
+    object-fit: contain;
+    width: 100%;
+    height: auto;
+}
+
+.companies {
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15% 15%;
+    justify-content: space-between;
+    align-items: center;
+}
+.companies img {
+   width: 100%; 
+}
+
+ @media (min-width: 600px) {
+    .fourthsection {
+        margin-top: 0;
+    }
+ }

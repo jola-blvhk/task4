@@ -1,0 +1,75 @@
+.reviews {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  gap: 50px;
+  margin-top: 30px;
+}
+
+.subscribe {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin: 100px auto 50px auto;
+  border: 1px solid #f6f6f6;
+  background: #F6F6F6;
+  padding: 4em 5em;
+  max-width: 1140px;
+  border-radius: 10px;
+}
+
+.fifthsection > h3 {
+  font-size: 30px;
+  line-height: 50px;
+  margin-top: 70px;
+  text-align: center;
+  color: #0B132A;
+}
+
+.fifthsection p {
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  color: #4F5665;
+  margin-top: 15px;
+}
+
+.subscribe h3 {
+  font-size: 35px;
+  line-height: 45px;
+  display: flex;
+  align-items: center;
+  color: #0B132A;
+}
+
+.subscribe p {
+  color: #4F5665;
+  margin-top: 10px;
+}
+
+.subscribe button {
+  background: #F53838;
+  border-radius: 10px;
+  color: #ffffff;
+  padding: 1em 2em;
+  border: 1px solid #F53838;
+  font-weight: bold;
+}
+
+.subscribe button:hover {
+  background-color: #ffffff;
+  color: #F53838;
+}
+
+@media (min-width: 700px) {
+  .reviews {
+    justify-content: space-between;
+    gap: 0;
+    grid-template-columns: 30% 30% 30%;
+  }
+  .subscribe {
+    flex-direction: row;
+    text-align: left;
+  }
+}/*# sourceMappingURL=fifthsection.styles.css.map */

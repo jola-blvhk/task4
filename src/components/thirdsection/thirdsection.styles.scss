@@ -1,0 +1,40 @@
+
+
+.thirdsection {
+   text-align: center;
+  
+
+    margin: 100px 0 50px 0 ;
+}
+
+
+.plans {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    gap: 5%;
+    margin-top: 70px;
+    justify-content: center;
+}
+
+.thirdsection > div > h2 {
+    font-size: 35px;
+    line-height: 50px;
+
+    color: #0B132A;
+
+}
+.thirdsection > div > p {
+    max-width: 555px;
+    margin: 20px auto 0 auto;
+    color: #4F5665;
+}
+
+.companies {
+    display: flex;
+}
+
+@media (min-width: 600px) {
+    .plans {
+        grid-template-columns: auto auto auto;
+    }
+}

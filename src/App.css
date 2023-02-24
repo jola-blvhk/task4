@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* outline: 1px solid red; */
+}
+body {
+  margin: 0 40px;
+}
+@media (min-width: 700px) {
+body {
+  /* background: #F6F6F6; */
+  margin: 0 100px;
+}
+}

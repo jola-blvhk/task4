@@ -1,0 +1,11 @@
+.list {
+  display: flex;
+  gap: 5px;
+  color: #4F5665;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.lists {
+  margin-top: 30px;
+}/*# sourceMappingURL=list.styles.css.map */

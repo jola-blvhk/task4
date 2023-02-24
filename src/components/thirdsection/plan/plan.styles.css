@@ -1,0 +1,44 @@
+.plan {
+  gap: 50px;
+  background: #FFFFFF;
+  border: 2px solid #DDDDDD;
+  border-radius: 10px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 2rem 4rem 2rem;
+  text-align: center;
+}
+
+.plan:hover {
+  border: 2px solid #F53838;
+}
+
+.planname {
+  font-weight: bold;
+  color: #0B132A;
+  margin-top: 20px;
+}
+
+.button {
+  width: 150px;
+  height: 45px;
+  border: 2px solid #f53855;
+  color: #f53855;
+  background: transparent;
+  border-radius: 50px;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.button:hover {
+  background-color: #F53855;
+  color: #FFFFFF;
+}
+
+@media (min-width: 700px) {
+  .plan {
+    gap: 150px;
+  }
+}/*# sourceMappingURL=plan.styles.css.map */
